@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Validação Formulário</title>
+    <style>
+        *{
+           padding: 0;
+           font-family: Arial, Helvetica, sans-serif;
+           box-sizing: border-box;
+        }
+        h1{
+           text-align: center;
+        }
+        form{
+           display: flex;
+           flex-direction: column;
+           gap: .5rem;
+           width: 50vw;
+           margin: 30px auto;
+        }
+        label{
+           font-weight: bold;
+           margin-bottom: 5px ;
+           display: inline-block;
+        
+        }
+        input, select {
+           width: 100%;
+           padding: 10px;
+           border: 1px solid #ccc;
+           border-radius: 5px;
+           font-size: 1.1rem;
+        
+        }
+        .linha{
+            width: 20vw;
+        }
+        button{
+           padding: 10px;
+           border: none;
+           border-radius: 5px;
+           background-color: #e2d5d5;
+           color: #1a1919;
+           font-size: 1.1rem;
+           cursor: pointer;
+        }
+        #test{
+            width:150px;
+            height:150px;
+            /*just this*/ background-image: url(https://images.freeimages.com/images/large-previews/48d/marguerite-1372118.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 150px 150px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Validando formulário</h1>
+        <hr>
+        <form onsubmit="return validarFormulario()">
+            <label for="tnome">Nome:</label>
+            <input id="tnome" type="text" size="30" name="txtnome" placeholder="Digite seu nome"><br>
+        
+            <label for="temail">Email:</label>
+            <input type="text" id="temail" size="30" name="txtemail" required placeholder="Digite seu email"><br>
+        
+            <label for="tsenha1">Senha:</label>
+            <input type="password" id="tsenha1" size="8" required placeholder="Digite sua senha"><br>
+        
+            <label for="tsenha2">Confirmar Senha:</label>
+            <input type="password" id="tsenha2" size="8" required placeholder="Confirme sua senha"><br>
+            <fieldset >
+               <legend>Sexo biológico: </legend>
+               <label style="display: flex;">
+                  Feminino<input type="radio" value=" feminino" name="rdsexo" class="linha">
+                 </label>
+               <label style="display: flex;">
+                  Masculino <input type="radio" value="masculino" class="linha" name="rdsexo">
+                  </label>
+                  <label style="display: flex;">
+                    Não binário <input type="radio" value="n_binario" class="linha" name="rdsexo">
+                    </label>
+            </fieldset>
+            <label>Linguagens para Web conhecidas: </label>
+            <label><input type="checkbox" name="chk_language" value="HTML" class="linha"> 
+            HTML</label>
+            <label><input type="checkbox" name="chk_language" value=" PHP " class="linha">PHP</label>
+            <label><input type="checkbox" name="chk_language" value="JS" class="linha">JavaScript</label>
+            <button type="submit" name="btncadastra">Cadastrar</button>
+        </form>
+    </main>
+    <footer style="text-align: center;">
+        <button id="test" onclick="oi()">     
+        <script>
+            function oi(){
+                alert("oi")
+            }
+        </script>
+        </footer>
+        <script src="validar.js"></script>
+</body>
+</html>
+

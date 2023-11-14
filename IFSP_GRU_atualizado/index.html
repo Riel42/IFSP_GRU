@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Gabryel Miranda dos Reis">
+    <meta name="description" content="Atividade de Revisão">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Revisão - Gabryel Miranda dos Reis</title>
+
+    <style>
+        #sobre{
+            padding: 100px 0;
+            display: flex; /* Como o elemento é mostrado */
+            align-items: center;
+            flex-wrap: wrap; /* itens flexíveis que podem serem quebrados */
+        }
+
+        .sobre-col-esquerda{
+            flex-basis: 50%; /*A propriedade especifica o comprimento inicial de um item flexível*/
+        }
+        .sobre-col-direita{
+            flex-basis: 50%;
+            text-align: right;
+        }
+
+        .sobre-col-esquerda img{
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .sobre-texto{
+            max-width: 500px;
+            margin-right: 100px;
+            display: inline-block;
+        }
+        
+        .sobre-texto h2{
+            margin: 50px 0 10px;
+            margin-right: 100px;
+            display: inline-block;
+        }
+        
+        .sobre-texto h3{
+            font-size: 15px;
+            font-style: italic;
+            color: #797979;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="sobre">
+            <div class="sobre-col-esquerda">
+                <img src="https://cdn.pixabay.com/photo/2019/11/03/16/29/woman-4599055_1280.png" alt="Ilustração de uma mulher de época lendo em um sofá" width="640px" height="366px">
+            </div>
+            <div class="sobre-col-direita">
+                <div class="sobre-texto">
+                    <h1>Sobre</h1>
+                
+                    <span class="quadrado"></span>
+                    
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, maiores. Voluptatem, consectetur, officiis molestiae nihil, itaque placeat eveniet odit reprehenderit ad labore a nam debitis eos earum. Ut, nemo distinctio.</p>
+                    
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </h2>
+                    
+                    <h3>----Abigail Adams</h3> 
+                </div>             
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

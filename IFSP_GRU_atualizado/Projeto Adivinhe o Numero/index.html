@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Gabryel Miranda dos Reis">
+    <meta name="description" content="Chute números para tentar acertar o número que o computador escolheu!">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20pt;
+            color: #fff;
+        }
+        body{
+            background-image: url(https://images7.alphacoders.com/106/1062438.jpg);
+            background-size: 115%;
+            margin: auto;
+            padding: 10px;
+            width: 40%;
+        }
+        #jogo{
+            background-color: rgba(0, 0, 0, 0.5) ;
+            border: solid rgba(0, 0, 0, 0) 2px;
+            border-radius: 30px;
+            padding: 10px;
+            margin-top: 25%;
+            text-align: center;
+        }
+        input{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 30px;
+            color: black;
+            text-align: center;
+            width: 250px;
+        }
+        footer, header{
+            text-align: center;
+        }
+
+        header img{
+            background-color: rgba(255 ,255, 255, 0.5);
+            padding: 3px;
+            border-radius: 30px;
+            position: relative;
+            right: -65%;
+        }
+
+        footer{
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border: 30px;
+        }
+
+        h4{
+            color: rgb(255, 110, 110);
+        }
+
+        @media only screen and (max-width: 900px){
+            *{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 10pt;
+                color: #fff;
+            }
+            header{
+                position: relative;
+            }   
+            header img{
+                width: 100px;
+                height: 100px;
+            } 
+            input{
+                width: auto;
+            }
+        }       
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://pep2.ifsp.edu.br/snct/includes/imgs/logo-sobre-gru.png" alt="Logo do IFSP Guarulhos" width="200px" height="200px">
+    </header>
+    <main>
+        <div id="jogo">
+            <h1>Adivinhe o número!</h1>
+            <p>Digite um valor entre 0 e 100!</p>
+            <input type="number" id="valor" placeholder="Digite um valor aqui" min="0" max="100">
+            <input type="button" onclick="chutar()" value="Chute!">  
+            <h4></h4>        
+            <script>
+                var jogador = prompt("Digite um nome de jogador");
+                var tentativas = 5;
+                var numeroSort = Math.floor((Math.random() * 100));
+                // Fonte: https://www.delftstack.com/pt/howto/javascript/javascript-random-number-between/
+
+                var alerta = document.querySelector("h4");
+
+                function chutar(){
+                    console.log("Nº de tentativas restantes: ", tentativas);
+                    console.log("Valor sorteado: ", numeroSort);
+
+                    var valor = document.getElementById('valor');
+                    
+                    if(tentativas != 42){
+                        if(valor.value == numeroSort && tentativas > 0){
+                            alerta.innerHTML = "Parabéns! Você ganhou o jogo!<br>Jogador: "+jogador;
+                            //alert("Parabéns! Você ganhou o jogo!");
+                            tentativas = 42;
+                        }
+                        else{
+                            if(tentativas <= 0){
+                                alerta.innerHTML = "Você perdeu o jogo :(<br>Tente novamente na próxima!<br>Jogador: "+jogador;
+                                //alert("Você perdeu o jogo :(\nTente novamente na próxima!")
+                            }
+
+                            else if(valor.value > numeroSort){
+                                tentativas--;
+                                alerta.innerHTML = "Chute um valor menor.<br>Tentativas: "+tentativas;
+                                //alert("Chute um valor menor.");
+                                
+                                if(tentativas <= 0){
+                                    alerta.innerHTML = "Você perdeu o jogo :(<br>Tente novamente na próxima!<br>Jogador: "+jogador;
+                                    //alert("Você perdeu o jogo :(\nTente novamente na próxima!")
+                                }
+                            }
+                            else{
+                                tentativas--;
+                                alerta.innerHTML = "Chute um valor maior.<br>Tentativas: "+tentativas;
+                                //alert("Chute um valor maior.");
+                                
+                                if(tentativas <= 0){
+                                    alerta.innerHTML = "Você perdeu o jogo :(<br>Tente novamente na próxima!<br>Jogador: "+jogador;
+                                    //alert("Você perdeu o jogo :(\nTente novamente na próxima!")
+                                }
+                            }
+                        }
+                    }
+                    
+                }               
+            </script>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <address style="color: rgb(255, 255, 255);">Instituto Federal IFSP Campus Guarulhos</address>
+        <h3 style="color: rgb(255, 255, 255);">Nome: Gabryel Miranda dos Reis</h3>
+        <h3 style="color: rgb(255, 255, 255);">Turma: INFO 2</h3>
+    </footer>
+</body>
+</html>

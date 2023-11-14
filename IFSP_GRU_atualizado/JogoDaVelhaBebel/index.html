@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="description" content="Clone do jogo da velha - Por Gabryel Miranda dos Reis">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.freepik.com/vetores-gratis/vetor-de-tipografia-de-tracado-de-pincel-de-simbolo-de-hashtag_53876-177866.jpg?w=2000" type="image/x-icon">
+    <title>Jogo da Velha - Gabryel Miranda dos Reis</title>
+    <script src="script.js"></script>
+    <style>
+        body{
+            color: rgb(131, 176, 226);
+            text-shadow: 3px 3px rgb(0, 0, 0);
+            text-align: center;
+            font-size: 40px;
+            background-image: url("https://i0.wp.com/cdn2.tfx.company/images/clickwallpapers-CouragetheCowardlyDog-desenhos-fullhd-img2.jpg?w=880&ssl=1");
+            background-size: 105%;
+            background-repeat: no-repeat;
+        }
+        main{
+            margin: auto;
+            width: 250px;
+            display: flex;
+        }
+        button{
+            width: 70px;
+            height: 70px;
+            background-color: aliceblue;
+            color: black;
+        }
+
+        #jogo{
+            color: black;
+            font-family: 'Comic Sans MS';
+        }
+    </style>
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Jogo da Velha</h1>
+        <h2>Por Gabryel Reis</h2>
+        <div>
+            <h3 id="player">Que comece os jogos</h3>
+            <h4 id="ultimoGanhador"></h4>
+        </div>
+   </header> 
+   <main>
+
+        <br>
+        <div id="jogo">
+            <button onclick="jogo(0)" id="b00" class="todos"></button>
+            <button onclick="jogo(1)" id="b01" class="todos"></button>
+            <button onclick="jogo(2)" id="b02" class="todos"></button>
+            <button onclick="jogo(3)" id="b03" class="todos"></button>
+            <button onclick="jogo(4)" id="b04" class="todos"></button>
+            <button onclick="jogo(5)" id="b05" class="todos"></button>
+            <button onclick="jogo(6)" id="b06" class="todos"></button>
+            <button onclick="jogo(7)" id="b07" class="todos"></button>
+            <button onclick="jogo(8)" id="b08" class="todos"></button>
+        </div>
+   </main>
+   <br>
+   <footer>
+        <address>Instituto Federal IFSP Campus Guarulhos</address>
+        <b>Filosofia de Copyleft - Livre para distribuição</b>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+#figura{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid greenyellow;
+    background-color: aqua;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+}
+
+img{
+    width: 30%;
+    margin: 30px 150px;
+}
+
+/*
+Urutau de boca aberta: https://cdn6.campograndenews.com.br/uploads/noticias/2022/04/03/3j13apyxy0sg8.jpg
+*/

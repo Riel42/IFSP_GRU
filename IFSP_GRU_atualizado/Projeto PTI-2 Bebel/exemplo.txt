@@ -1,0 +1,153 @@
+Introdução
+
+A pandemia da COVID-19, que eclodiu em 2019, desencadeou um
+desafio colossal para o sistema educacional brasileiro, com destaque para o
+ensino médio. Para conter a disseminação do vírus, as atividades educacionais
+presenciais foram interrompidas, afetando milhões de estudantes. Segundo o
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP),
+o Brasil tem cerca de 7,2 milhões de estudantes matriculados no ensino médio.
+Nesse contexto, o ensino remoto emergiu como a alternativa viável para manter
+o processo educacional.
+
+A rápida transição para o ensino remoto representou um desafio
+particularmente intenso para os professores. Antes da pandemia, a formação em
+educação a distância e uso de tecnologias digitais na educação não eram
+comuns na preparação dos professores no Brasil. Assim, muitos educadores
+tiveram que adquirir novas habilidades pedagógicas e tecnológicas em tempo
+recorde. A complexidade de engajar alunos adolescentes, que constituem a
+maior parte do ensino médio, em um ambiente virtual se tornou um dos principais
+desafios.
+
+As desigualdades sociais brasileiras também agravaram a situação.
+O acesso à internet de qualidade e a dispositivos adequados para o aprendizado
+online, como computadores e tablets, foi um grande obstáculo, especialmente
+em áreas mais pobres e remotas do país. Essas barreiras tecnológicas se
+somaram a outros desafios, como a dificuldade de interação face a face e a
+avaliação do desempenho dos alunos de forma adequada e justa.
+
+No ensino presencial, os professores e alunos compartilham o mesmo
+espaço físico, o que permite uma série de interações diretas e imediatas. De
+acordo com o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio
+Teixeira (INEP), em 2019, o Brasil possu ía aproximadamente 2,2 milhões de
+professores atuando na educação básica, incluindo o ensino médio. Todos esses
+professores precisaram se adaptar às novas realidades do ensino remoto
+durante a pandemia da COVID-19.
+
+Por outro lado, o ensino remoto, particularmente o síncrono, ainda
+permite a interação em tempo real, mas de forma virtual. O engajamento dos
+alunos pode ser um desafio, pois o ambiente doméstico pode ter mais distrações
+em comparação com o ambiente escolar. Segundo uma pesquisa da Fundação
+Getúlio Vargas (FGV) de 2020, 39% dos estudantes de 15 a 29 anos que
+estudavam de forma remota no Brasil afirmaram ter dificuldades em manter o
+foco nas aulas online.
+
+Além disso, a desigualdade digital também é uma questão crucial
+quando falamos sobre a transição para o ensino remoto. De acordo com o
+Comitê Gestor da Internet no Brasil (CGI.br), em 2019, 58% dos domicílios
+brasileiros acessaram a internet exclusivamente por meio de celulares, o que
+pode limitar a eficácia do aprendizado online devido à tela pequena e a possíveis
+limitações de conectividade.
+
+Portanto, embora o ensino presencial e remoto sejam metodologias
+de ensino e a mudança principal seja de fato o local que aula acontece, a
+transição entre essas modalidades envolve adaptações significativas e desafios,
+Entre estes destacamos:
+Acesso limitado à tecnologia e à internet, de acordo com o CGI.br, em
+2019, 58% dos domicílios brasileiros acessavam a internet exclusivamente por
+meio de celulares. Isso pode limitar a eficácia do aprendizado online,
+principalmente se considerarmos que nem todos os alunos têm acesso a
+dispositivos adequados para estudo ou a uma conexão de internet estável e de
+alta velocidade.
+
+Dificuldade de adaptação à nova plataforma de aprendizado, tanto
+para estudantes bem com para os professores que enfrentam desafios para se
+adaptar às plataformas de aprendizado online. A falta de familiaridade com as
+ferramentas tecnológicas pode dificultar a entrega efetiva do conteúdo pelos
+professores e o acompanhamento adequado das aulas pelos alunos.
+
+Mudança no ambiente de estudo, no ensino presencial, o ambiente de
+aprendizagem é geralmente estruturado e livre de distrações. No ensino remoto,
+os estudantes podem ter que lidar com várias distrações em casa, o que pode
+afetar sua concentração e, consequentemente, seu desempenho acadêmico.
+Falta de interação social e suporte presencial, a interação entre
+estudantes e professores é um aspecto crucial da aprendizagem,
+proporcionando suporte social e acadêmico. No ensino remoto, essa interação
+pode ser limitada, o que pode comprometer a saúde mental causado pelo
+sentimento de isolamento e dificultar a compreensão de conceitos complexos.
+Dificuldades na avaliação do aprendizado, A falta de supervisão direta
+pode levar ao aumento de comportamentos como o plágio. Além disso, pode ser
+mais difícil para os docentes avaliarem a compreensão dos estudantes sobre o
+conteúdo e dar feedback imediato e eficaz.
+
+Assim podemos apresentar algumas questões ou hipóteses de
+pesquisa, Como a falta de acesso adequado à tecnologia e à internet afeta o
+desempenho acadêmico dos estudantes do ensino médio no ensino remoto
+durante a pandemia da COVID-19 no Brasil? Quais são as principais
+dificuldades enfrentadas por professores e estudantes do ensino médio na
+adaptação ao ensino remoto e quais estratégias podem ser implementadas para
+superar esses desafios? Qual é o impacto da transição para um ambiente de
+aprendizado doméstico na concentração e no desempenho acadêmico dos
+estudantes do ensino médio durante a pandemia da COVID-19? Como a falta de
+interação cara a cara no ensino remoto afeta a aprendizagem e o bem-estar
+emocional dos estudantes do ensino médio? Quais estratégias podem ser
+utilizadas para melhorar a interação social e o suporte acadêmico no ensino
+remoto? Quais são os principais desafios na avaliação do aprendizado no ensino
+remoto e como eles podem ser superados para garantir uma avaliação justa e
+eficaz do desempenho dos estudantes? Qual é o impacto da transição para o
+ensino remoto na saúde mental dos estudantes do ensino médio durante a
+pandemia da COVID-19? Quais medidas de suporte podem ser implementadas
+para mitigar esses efeitos?
+
+Diante dispostos pra este projeto de pesquisa, considerando os
+desafios da transição para o ensino remoto no ensino médio durante a pandemia
+da COVID-19 no Brasil, como o ensino híbrido pode ser incorporado como uma
+solução eficaz para atenuar esses desafios, melhorar o acesso e a qualidade da
+educação e preparar o sistema educacional para futuras eventualidades
+similares.
+
+Referências:
+
+1. UNESCO. (2020). Education: From disruption to recovery.
+https://en.unesco.org/covid19/educationresponse
+2. INEP - Instituto Nacional de Estudos e Pesquisas Educacionais Anísio
+Teixeira. (2020). Sinopse Estatística da Educação Básica 2020.
+http://portal.inep.gov.br/sinopses-estatisticas-da-educacao-basica
+3. CONSED - Conselho Nacional de Secretários de Educação. (2020).
+Estudantes da educação básica na pandemia.
+https://www.consed.org.br/impactos-da-pandemia-na-educacao-basica
+4. Prodanov, C. C., & Freitas, E. C. (2021). Ensino remoto emergencial: relato
+de experiência de professores durante a pandemia da Covid-19. EmRede -
+Revista de Educação a Distância, 8(1), 286-305.
+https://www.aunirede.org.br/revista/index.php/emrede/article/view/810
+2. Fundação Getúlio Vargas. (2020). Juventude e a Pandemia do Coronavírus
+(COVID-19).
+https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/28989/Juventude
+%20e%20a%20pandemia%20do%20coronav%C3%ADrus%20%28COVID-
+19%29%20%20uma%20an%C3%A1lise%20das%20classes%20sociais.pdf?se
+quence=1&isAllowed=y
+3. CGI.br. (2019). Pesquisa sobre o uso das tecnologias de informação e
+comunicação nos domicílios brasileiros: TIC Domicílios 2019.
+https://cetic.br/pesquisa/domicilios/indicadores/
+
+MUDANÇA DE TEMA:
+
+Problemas com a produção de música
+
+apanhado histórico
+
+PROBLEMAS:
+
+*softwares caros
+
+* direitos autorais --> músicas excluídas das plataformas
+
+* as músicas produzidas pertencem as distribuitoras
+
+* os ouvintes ouvem apenas aquilo que lhe interessam 
+(causada pelas plataformas de streaming)
+
+-> Qual que vale a pena aprofundar?
+
+--> Possível solução: objetivo
+
+Solução do Spotify

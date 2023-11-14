@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale-1.0">
+		<link rel="stylesheet" href="estilo.css">
+
+		<title>Adivinhe o número</title>
+	</head>
+	<body>
+		<header id="header">
+			<div>
+				<img src="heart.png" id="heart-5" width="50" height="50" >
+				<img src="heart.png" id="heart-4" width="50" height	="50" >
+				<img src="heart.png" id="heart-3" width="50" height="50" >
+				<img src="heart.png" id="heart-2" width="50" height="50" >
+				<img src="heart.png" id="heart-1" width="50" height="50" >
+			</div>
+			<h1 id="titulo"  >Adivinhe o número. Estou pensando em um número entre 1 e 100.</h1> </input>
+		</header>
+		<main>
+			<div id="numeros">
+				<div>
+					<input type="text" id="numero" placeholder="insira um número">
+					<div>
+						<button type="submit" onclick="totake()" id="enviar" autofocus>Enviar</button>
+						<button id="resetar"onclick="resetar()" >Resetar</button>
+					</div>
+				</div>
+				<div id="imagem">
+					<img src="mario.png" id="img" >
+				</div>
+			</div>
+			<h3 id="notas"></h3>
+			
+		</main>	
+		
+	</body>
+	</html>
+
+<script src="script.js"></script>

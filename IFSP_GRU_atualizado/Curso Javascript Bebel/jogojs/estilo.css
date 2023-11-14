@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 55, 180);
+}
+
+#resetar:hover {
+    background-color: red; /* cor quando o mouse passar por cima */
+}
+
+#header {
+  text-align: center;
+}
+
+#header div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 25rem;
+}
+
+#numeros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 2rem;
+  height: 20vh;
+}
+
+#numeros div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+}
+
+#imagem {
+  height: 100%;
+}
+
+#imagem img {
+  max-height: 100%;
+}
+
+
+#numeros div:nth-child(1) div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  gap: 1rem;
+}
+
+#numeros div:nth-child(1) div button {
+  flex: 1 1 0;
+  padding: .25rem 0;
+}
+
+main h3 {
+  text-align: center;
+  padding: .5rem 0;
+}
